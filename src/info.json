@@ -5,8 +5,8 @@
       "titleLineOne": "import React",
       "titleLineTwo": "form",
       "titleBolded": "React",
-      "subTitle": "Front End",
-      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"
+      "subTitle": "Front-End",
+      "content": "In the 7 years of my software engineering experience, I acquired special set of skills in React. Skills that make me a night mirror for bugs. I will look for the bugs and I will fix the bugs. <NotFromTaken/>"
     },
     {
       "id": 1,
@@ -14,15 +14,15 @@
       "titleLineTwo": "form",
       "titleBolded": "Database",
       "subTitle": "Database",
-      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"
+      "content": "In every project I have been apart of I have wrote hundreds lines of data base querys, function and procedure. Experience = 7 years "
     },
     {
       "id": 2,
       "titleLineOne": "const app=",
       "titleLineTwo": "require",
       "titleBolded": "(Express)",
-      "subTitle": "Back End",
-      "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout"
+      "subTitle": "Back-End",
+      "content": "Ever since the rise of Node JS, switching from PHP to to NodeJS made to possible to deploy rebust application. Experience = 7 years"
     }
   ],
   "navigation": {
