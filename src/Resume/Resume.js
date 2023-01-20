@@ -29,9 +29,6 @@ function Bio(){
                     <BioSummery> 
                         Software Engineer-Developer with over 7 years of experience in information technology with a specialty in full-stack web development and database development. Self-directed specialist in evaluating, assessing, developing, and implementing websites, applications, databases, and software’s alike, while supporting client’s needs throughout project life cycle.
 Impactful organizational skills with a prowess in cross-functional team communication and leadership. Expertise in software testing, troubleshooting, data analysis, identifying issues while finding effective solutions and providing program development documentation.
-
-                        
-                        
                     </BioSummery>
                 </Bios> 
         </ResumeConainer>
