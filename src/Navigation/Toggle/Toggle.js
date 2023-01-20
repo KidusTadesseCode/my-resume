@@ -4,7 +4,7 @@ import { ToggleContainer, ToggleBox } from "./Toggle_style";
 import { useSelector, useDispatch } from 'react-redux'
 import { changeToDarkMode } from "../../ReduxStore/darkModeSlice";
 
-const l = console.log
+
 function Toggle (){
 	const themeDark = useSelector((state) => state.themeChanger.value)
     const dispatch = useDispatch()
@@ -16,10 +16,9 @@ function Toggle (){
 	  }, [checkBox])
   
 	  const ChangeToDarkMode= (e)=>{
-		// dispatch(changeToDarkMode(!themeDark))
+		
 		const dark = changeToDarkMode(!themeDark)
 		dispatch(dark)
-		l(dark["payload"])
 		const local= JSON.parse(localStorage.getItem("theme"))
 		setCheckBox(dark["payload"])
 	  }
