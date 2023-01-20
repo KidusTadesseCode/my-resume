@@ -8,13 +8,15 @@ function Toggle (){
 	const themeDark = useSelector((state) => state.themeChanger.value)
     const dispatch = useDispatch()
 	const [checkBox, setCheckBox]=useState(JSON.parse(localStorage.getItem("theme")))
+	
 	useEffect(()=>{
 		const local= JSON.parse(localStorage.getItem("theme"))
 		localStorage.setItem('theme', JSON.stringify(!local));
 	  }, [checkBox])
   
 	  const ChangeToDarkMode= (e)=>{
-		dispatch(changeToDarkMode(!themeDark))
+		// dispatch(changeToDarkMode(!themeDark))
+		dispatch(!themeDark)
 		const local= JSON.parse(localStorage.getItem("theme"))
 		setCheckBox(!local)
 	  }
