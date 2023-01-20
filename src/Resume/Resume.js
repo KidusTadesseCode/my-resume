@@ -27,8 +27,11 @@ function Bio(){
                 <Bios>
                     <h1>Kidus Tadesse</h1>
                     <BioSummery> 
-                        Software Developer and Database Developer with over 5 years of experience in the IT Industry. Experience in planning, developing and implementing web page design and layouts. A polished professional with expertise providing support to clients regarding their implementations. Possess impactful organizational skills with a prowess in cross-functional team communication and leadership. Expertise in software testing, troubleshooting, data analysis, identifying issues while finding effective solutions and providing program development documentation.
-                        <br/>Practically the best Full stack developer in the world
+                        Software Engineer-Developer with over 7 years of experience in information technology with a specialty in full-stack web development and database development. Self-directed specialist in evaluating, assessing, developing, and implementing websites, applications, databases, and software’s alike, while supporting client’s needs throughout project life cycle.
+Impactful organizational skills with a prowess in cross-functional team communication and leadership. Expertise in software testing, troubleshooting, data analysis, identifying issues while finding effective solutions and providing program development documentation.
+
+                        
+                        
                     </BioSummery>
                 </Bios> 
         </ResumeConainer>
