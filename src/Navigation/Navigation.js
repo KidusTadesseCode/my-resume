@@ -89,7 +89,6 @@ function Navigation (){
 			</CenterContainer>
 			<RightContainer themeColor={darkTheme} >
 				<RightMapper itemOfNav={info["navigation"]["rightContent"]} placement="right" />
-				{/* <Toggle /> */}
 			</RightContainer>
 		</NavigationContainer>
 	)

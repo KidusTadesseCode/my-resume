@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from 'react-redux'
+import { Link } from "react-router-dom";
 import { 
 	BodyHeaderContainer, BodySubContaner, BodyContaner, HOneLight, Htwo, RestLight, RightRow, Circle, BoxTop, BoxMidLeft, BoxMidLeftRight, BoxBottomLeft, BoxContainer, LeftMidSection
  } from "./BodyHeader_style";
@@ -10,7 +11,7 @@ function BodyHeader (){
             <BodyContaner>
                 <BodySubContaner>
                     <HOneLight light={darkTheme}>Beautifully Crafted Application <br/>Architecture</HOneLight>
-                    <Htwo>Meet the Architect 👇</Htwo>
+                    <Htwo><Link to={"/resume"}> Meet the Architect 👇 </Link></Htwo>
                 </BodySubContaner>
                 <BoxContainer>
                     <BoxBottomLeft light={darkTheme}/>

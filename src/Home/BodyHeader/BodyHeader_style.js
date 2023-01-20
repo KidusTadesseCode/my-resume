@@ -21,6 +21,10 @@ const HOneLight = styled.h1`
 `
 const Htwo = styled.h2`
     color: #BAE2E1;
+    a:-webkit-any-link {
+        text-decoration: none;
+        color: inherit;
+    }
 `
 
 const RestLight = styled.div`

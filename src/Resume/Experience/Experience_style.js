@@ -7,6 +7,7 @@ const Accordion = styled.div`
     box-shadow:${({theme})=>{ return theme.accordion.boxShadow? theme.accordion.boxShadow: '0px 0px 5px 3px #BCBCBC' }};
     border-radius:10px 10px 10px 10px;
     margin-bottom:30px;
+    cursor:pointer;
     
 `
 const AccordionTitles = styled.div`
