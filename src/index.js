@@ -5,18 +5,20 @@ import App from './App';
 
 import { store } from './ReduxStore/Store';
 import {Provider} from "react-redux"
+import { HashRouter as Router } from "react-router-dom";
 
-import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
   <React.StrictMode>
-  <HashRouter>
+  
     <Provider store={store}>
-      <App />
+      <Router>
+        <App />
+      </Router>
     </Provider>
-    </HashRouter>
+    
   </React.StrictMode>
   
 );
