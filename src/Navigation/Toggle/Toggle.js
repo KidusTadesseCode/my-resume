@@ -4,22 +4,29 @@ import { ToggleContainer, ToggleBox } from "./Toggle_style";
 import { useSelector, useDispatch } from 'react-redux'
 import { changeToDarkMode } from "../../ReduxStore/darkModeSlice";
 
+const l = console.log
 
 function Toggle (){
 	const themeDark = useSelector((state) => state.themeChanger.value)
     const dispatch = useDispatch()
 	const [checkBox, setCheckBox]=useState(JSON.parse(localStorage.getItem("theme")))
 	
-	useEffect(()=>{
-		const local= JSON.parse(localStorage.getItem("theme"))
-		localStorage.setItem('theme', JSON.stringify(!local));
-	  }, [checkBox])
+	// useEffect(()=>{
+	// 	const local= JSON.parse(localStorage.getItem("theme"))
+	// 	localStorage.setItem('theme', JSON.stringify(!local));
+	//   }, [checkBox])
+
+	//   useEffect(()=>{
+	// 	l(themeDark)
+	// 	// const local= JSON.parse(localStorage.getItem("theme"))
+	// 	// localStorage.setItem('theme', JSON.stringify(local));
+	//   }, [checkBox])
   
 	  const ChangeToDarkMode= (e)=>{
 		
 		const dark = changeToDarkMode(!themeDark)
 		dispatch(dark)
-		const local= JSON.parse(localStorage.getItem("theme"))
+		// const local= JSON.parse(localStorage.getItem("theme"))
 		setCheckBox(dark["payload"])
 	  }
 	return (
