@@ -14,6 +14,9 @@ const IdkCicleOfcircle  = styled.div`
     margin-top: -50px;
     z-index: auto;
     transition:all 2.5s;
+    @media (max-width: 820px) {
+        display:none ;
+    }
 `
 
 const ResumeConainer= styled.div`
@@ -23,6 +26,11 @@ const ResumeConainer= styled.div`
     background-color: #0099D1;
     padding-left: 10px;
     padding-top: 100px;
+    @media (max-width: 820px) {
+        padding-left: 0;
+        width: 100%;
+        justify-content:center ;
+    }
 `
 const Bios = styled.div`
     margin-top: 2%;
@@ -31,11 +39,28 @@ const Bios = styled.div`
     z-index: auto;
     color:#ffffff;
     padding-bottom: 3%;
+    @media (max-width: 820px) {
+        margin-top: -100px;
+        margin-left: 0;
+        padding-left:10px ;
+        width: 100%;
+        justify-content:center ;
+        align-self: center;
+        text-align:center ;
+    }
 `
 const BioSummery = styled.div`
     width: 75%;
     text-align: left;
     line-height:120%;
+    @media (max-width: 820px) {
+        margin-left: 0;
+        padding-left:10px ;
+        width: 100%;
+        justify-content:center ;
+        align-self: center;
+        text-align:center ;
+    }
 `
 const ExperienceHeadLines = styled.h2`
     width: 100%;
