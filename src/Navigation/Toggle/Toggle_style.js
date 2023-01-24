@@ -1,7 +1,5 @@
 import styled from "styled-components";
-const ToggleContainer =styled.div`
 
-`
 const ToggleBox = styled.input.attrs((props)=>({
     type: 'checkbox',
     checked: props.checked,
@@ -62,5 +60,5 @@ const ToggleBox = styled.input.attrs((props)=>({
 
 
 export {
-	ToggleContainer, ToggleBox
+    ToggleBox
 }

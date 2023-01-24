@@ -1,7 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  // value: false,
     value:JSON.parse(localStorage.getItem("theme"))
 }
 
