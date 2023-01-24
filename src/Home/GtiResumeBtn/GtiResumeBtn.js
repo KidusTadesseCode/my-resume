@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { 
 	GtiResumeBtnContainer, GitBtn
  } from "./GtiResumeBtn_style";
 function GtiResumeBtn ({isThemeDark}){
 	return (
 		<GtiResumeBtnContainer isThemeDark={isThemeDark}>
-			<GitBtn isThemeDark={isThemeDark}></GitBtn>
+			<Link to={"resume"}>
+				<GitBtn isThemeDark={isThemeDark}>Git Resume</GitBtn>
+			</Link>
 		</GtiResumeBtnContainer>
 	)
 }

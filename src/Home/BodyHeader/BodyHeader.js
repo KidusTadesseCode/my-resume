@@ -13,17 +13,18 @@ function BodyHeader (){
                     <HOneLight light={darkTheme}>Beautifully Crafted Application <br/>Architecture</HOneLight>
                     <Htwo><Link to={"/resume"}> Meet the Architect 👇 </Link></Htwo>
                 </BodySubContaner>
+
                 <BoxContainer>
                     <BoxBottomLeft light={darkTheme}/>
-
                     <LeftMidSection>
                         <BoxMidLeftRight/>
                         < BoxMidLeft/>
                     </LeftMidSection>
-                    
                     <BoxBottomLeft light={darkTheme}/>
                 </BoxContainer>
+
             </BodyContaner>
+            
             <RestLight light={darkTheme}>
                 <BoxTop/>
                     <RightRow>

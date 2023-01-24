@@ -6,6 +6,7 @@ const NavigationContainer=styled.div`
     position: sticky;
     top:0;
     width: 100%;
+    z-index:10 ;
 `
 
 const LeftContainer=styled.div`
@@ -30,6 +31,7 @@ const RightContainer=styled.div`
     background-color: ${(props)=>props.themeColor? "#292828":"#ffffff"};
     transition:all 2.5s;
     width: calc(100%/3) ;
+    padding-right: 1% ;
 
 `
 

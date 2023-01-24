@@ -10,8 +10,14 @@ const BodyContaner = styled.div`
     background-color: #0099D1;
     display: flex;
     justify-content: space-between;
+    @media (max-width: 820px) {
+        width:100%;
+        padding-bottom:5% ;
+    }
 `
-const BodySubContaner= styled.div``
+const BodySubContaner= styled.div`
+    
+`
 
 const HOneLight = styled.h1`
     color: ${(props)=>props.light? "#292828":"#FFFFFF"};
@@ -31,6 +37,9 @@ const RestLight = styled.div`
     width:calc( 100% - (100%/1.5) );
     background-color: ${(props)=>props.light? "#292828":"#ffffff"};
     transition:all 2.5s;
+    @media (max-width: 820px) {
+        display:none;
+    }
 `
 const RightRow = styled.div`
     display: flex;
@@ -80,6 +89,9 @@ const BoxBottomLeft= styled.div`
 
 const BoxContainer = styled.div`
     margin-top: 99px;
+    @media (max-width: 820px) {
+        display:none;
+    }
 `
 
 const LeftMidSection = styled.div`
