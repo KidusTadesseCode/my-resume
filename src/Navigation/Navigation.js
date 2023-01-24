@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from "react";
 import { useSelector } from 'react-redux'
-
 import { Link } from "react-router-dom";
 import { 
 	NavigationContainer, BrandContainer, Brand, LeftContainer, CenterContainer, RightContainer, UnorderList, ListItem, Img
@@ -26,13 +25,15 @@ function RightMapper ({itemOfNav}){
 	const darkTheme = useSelector((state) => state.themeChanger.value)
 	const [items, setItems]=useState()
 	useEffect(()=>{
-		const tog = {id: 4, lightIcon:<Toggle />, link:"", onClick:'', isToggle:true}
+		
 		if (Array.isArray(itemOfNav)){
 			const hold = []
+			const tog = {id: 4, lightIcon:<Toggle />, link:"", onClick:'', isToggle:true}
+			hold.push(tog)
 			for (let x =0; x<itemOfNav.length; x++){
 				hold.push(itemOfNav[x])
 			}
-			hold.push(tog)
+			
 			setItems(hold)
 		}
 	},[])
@@ -40,7 +41,6 @@ function RightMapper ({itemOfNav}){
 	return(
 		<UnorderList>
 			{items && items.map((v, i)=>{
-				
 				const link = v["link"]!==""?true:false
 				const isToggle = v["isToggle"]
 				return(
@@ -54,7 +54,7 @@ function RightMapper ({itemOfNav}){
 }
 
 
-function CenterMapper ({itemOfNav, placement}){
+function CenterMapper ({itemOfNav}){
 	const darkTheme = useSelector((state) => state.themeChanger.value)
 	return (
 		<UnorderList>

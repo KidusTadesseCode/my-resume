@@ -1,5 +1,5 @@
 {
-  "homepage": "https://KidusTadesseCode.github.io/my-resume",
+  "homepage": "https://KidusTadesseCode.github.io",
   "name": "my-resume",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "newComp": "sh shFiles/componentBoilerplate.sh"
+    "newComp": "sh shFiles/componentBoilerplate.sh",
+    "github": "sh shFiles/github.sh"
   },
   "eslintConfig": {
     "extends": [
